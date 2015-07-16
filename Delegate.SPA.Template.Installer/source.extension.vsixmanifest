@@ -2,11 +2,20 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Id="Delegate.SPA.Template.Installer..ad4d386e-04f3-4474-be70-38e358e21ebb" Version="1.0" Language="en-US" Publisher="SJKP" />
-    <DisplayName>Delegate.SPA.Template.Installer</DisplayName>
-    <Description>Empty VSIX Project.</Description>
+    <DisplayName>Delegate SPA Template</DisplayName>
+    <Description xml:space="preserve">A Visual Studio template for creating single page applications hosted by Owin with swagger included.</Description>
+    <MoreInfo>https://github.com/sjkp/Delegate.SPA.Template</MoreInfo>
+    <Icon>icon.png</Icon>
+    <Tags>Delegate, SPA, Single Page Application, Owin, Swagger</Tags>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
+    <InstallationTarget Version="[12.0,15.0)" Id="Microsoft.VisualStudio.IntegratedShell" />
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Community" />
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Pro" />
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Enterprise" />
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Premium" />
+    <InstallationTarget Version="[11.0,15.0)" Id="Microsoft.VisualStudio.Ultimate" />
+    <InstallationTarget Version="[12.0,15.0)" Id="Microsoft.VisualStudio.VSLS" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
