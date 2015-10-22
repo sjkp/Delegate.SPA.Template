@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="Delegate.SPA.Template.Installer..ad4d386e-04f3-4474-be70-38e358e21ebb" Version="1.0" Language="en-US" Publisher="SJKP" />
+    <Identity Id="Delegate.SPA.Template.Installer..ad4d386e-04f3-4474-be70-38e358e21ebb" Version="1.1" Language="en-US" Publisher="SJKP" />
     <DisplayName>Delegate SPA Template</DisplayName>
     <Description xml:space="preserve">A Visual Studio template for creating single page applications hosted by Owin with swagger included.</Description>
     <MoreInfo>https://github.com/sjkp/Delegate.SPA.Template</MoreInfo>
